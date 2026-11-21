@@ -1,0 +1,65 @@
+
+
+.container {
+    display: grid;
+transition: all 0.3 ease;
+    grid-template-areas:
+        "header header"
+        "ads ads"
+        "sider content"
+        "footer footer";
+
+    grid-template-columns: 2fr 4fr;
+
+    grid-template-rows: 80px 80px minmax(400px, 1fr) 80px;
+
+    gap: 5px;
+
+    min-height: 100vh;
+}
+
+
+
+.header {
+    grid-area: header;
+    transition: all 0.3 ease;
+    background-color: rgba(0, 0, 255, 0.36);
+    padding: 10px;
+    text-align: center;
+}
+.ads{
+    grid-area: ads;
+    transition: all 0.3 ease;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.sider {
+    grid-area: sider;
+    transition: all 0.3 ease;
+    background-color: rgba(0, 255, 255, 0.625);
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    transition: all 0.3 ease;
+    background-color: rgba(0, 255, 162, 0.156);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    transition: all 0.3 ease;
+    background-color: rgb(240, 250, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+#submit{
+    transition: all 0.3 ease;
+    cursor: pointer;
+}

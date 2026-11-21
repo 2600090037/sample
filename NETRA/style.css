@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7fa3ec;
+    height: 125px;
+    padding: 0 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    color: #64baff;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-right: 15px;
+}
+
+
+.brand-section {
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name{
+    color: #64baff;
+    font-size: 55px;
+    font-family: 'Arial',sans-serif;
+    margin-right: 15px;
+}
+.title-section{ 
+    text-align: center;
+    flex: 1;
+    margin-left: 40px;
+}
+
+.title-section h2{
+    color: white;
+    font-size: 40px;
+}
+.title-section p{
+    color: white;
+    font-size: 22px;
+}
+
+.right-section{
+    display: flex;
+    align-items:center;
+    text-align: right;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.status{
+    color: #16e916;
+    font-size: 20px;
+}
